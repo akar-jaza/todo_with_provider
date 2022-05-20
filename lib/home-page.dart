@@ -1,4 +1,4 @@
-// ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, prefer_const_constructors_in_immutables, unused_local_variable, prefer_const_literals_to_create_immutables
+// ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, prefer_const_constructors_in_immutables, unused_local_variable, prefer_const_literals_to_create_immutables, todo
 
 import 'package:flutter/material.dart';
 import 'package:todo_with_provider/constants.dart';
@@ -24,7 +24,12 @@ class _HomePageState extends State<HomePage> {
       return padding = 8;
     }
   }
-
+   //creating initState() for adding listener to controller
+   @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
   @override
   Widget build(BuildContext context) {
     final tabs = [
